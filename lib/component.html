@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio component library</title>
+    <link href="/portfolio-component-library/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Component Library</h1>
+    <p>I am attending neog.camp and completing levelZero assignment at a time.</p>
+    <p>This is a component library created by me to better design each element</p>
+    <p>After creating this library I am going to use the components in my portfolio, blog and all projects that I
+        created. This will ensure that all my projects have consistent themeing and styling.
+    </p>
+    <hr>
+
+    <h2>@Typography</h2>
+    <h1>The biggest heading h1</h1>
+    <h2>The second biggest heading h2</h2>
+    <p>This is normal text. Long running text would look like this on my website. This will auto fold based on the width
+    </p>
+    <small>This is relatively smaller text</small>
+    <hr>
+
+    <h2>@Containers</h2>
+    <h3>Fluid container</h3>
+    <div class="container">This is going to be a fluid container. It will go full width of page. With some margin.</div>
+    <h3>Center container</h3>
+    <div class="container centered">This is going to be a center container. It will go till a given width and center
+        content.</div>
+    <hr>
+
+    <h2>@Links</h2>
+    <a class="links primary-link" href="">Primary Link</a>
+    <a class="links links-secondary" href="">Seondary Link</a>
+    <hr>
+
+    <h2>@Lists</h2>
+
+    <h3>Unordered lists</h3>
+    <p>We don't want to show bullets in the unordered list. We'll remove that with CSS</p>
+
+    <ul class="list-non-bullet">
+        <li>item one</li>
+        <li>item two</li>
+        <li>item three</li>
+    </ul>
+
+    <h3>Inline lists</h3>
+    <p>Instead of going in a new row, we will create a list which will take columns</p>
+    <ul class="list-non-bullet">
+        <li class="list-inline">item one</li>
+        <li class="list-inline">item two</li>
+        <li class="list-inline">item three</li>
+    </ul>
+
+    <h3>Reverse ordered lists</h3>
+    <p> Counting will go reverse for this list</p>
+    <ol reversed>
+        <li>something</li>
+        <li>something else</li>
+        <li>something else</li>
+    </ol>
+
+    <hr>
+
+    <h2>@Nav</h2>
+    <p>Navigation is used on the top of the page and used to get different pages</p>
+    <nav class="navigation container">
+        <div class="nav-brand">TheBrandName</div>
+        <ul class="list-non-bullet list-align">
+            <li class="list-inline "> <a class="links link-active" href="">Home</a> </li>
+            <li class="list-inline"> <a class="links" href="">Products</a> </li>
+            <li class="list-inline"> <a class="links" href="">About</a> </li>
+        </ul>
+    </nav>
+    <hr>
+
+    <h2>@Header</h2>
+    <header class="hero">
+        <img class="header-img" src="images/hero.svg">
+        <h1 class="hero-heading">This is heading h1 <span class="span-color"> inside header</span></h1>
+    </header>
+    <hr>
+
+    <h2>@section</h2>
+
+    <h3>white section</h3>
+    <p>A section is used to separate parts of pages</p>
+    <section class="section ">
+        <div class="container centered">
+            <h1> heading inside section </h1>
+            <p>Text defining this section and many more thingsLorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        </div>
+    </section>
+
+    <h3>@an off white section</h3>
+    <p>This will have a gray background</p>
+    <section class="section ow ">
+        <div class="centered container">
+            <h1>inside off white section</h1>
+            <p>Text defining this section and many more things.Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+        </div>
+    </section>
+    <hr>
+
+    <h2>@footer</h2>
+    <footer class=" footer ">
+        <div class="centered container ">
+            <div class="footer-header">header inside footer</div>
+            <ul class="list-non-bullet">
+                <li class="list-inline"><a class="links" href="">socialone</a></li>
+                <li class="list-inline"><a class="links" href="">socialtwo</a></li>
+                <li class="list-inline"><a class="links" href="">socialthree</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
